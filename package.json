@@ -7,6 +7,7 @@
     "start": "npm run dev",
     "dev": "npm run build && node ./scripts/budo",
     "build": "mkdir -p build/ && npm run browserify -- --debug -o build/aframe-editor.js",
+    "dist": "mkdir -p dist/ && npm run browserify -- --debug -o dist/aframe-editor.js",
     "browserify": "browserify src/index.js -s 'aframe-editor'",
     "lint": "semistandard -v $(git ls-files '*.js') | snazzy",
     "precommit": "npm run lint"
