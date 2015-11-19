@@ -2,6 +2,7 @@
 
 A easy to use editor for creating VR scenes using A-FRAME.
 
+[Try it out!](http://caseyyee.github.io/aframe-editor/example)
 
 ## Getting started
 
