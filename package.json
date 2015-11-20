@@ -34,5 +34,11 @@
     "semistandard": "^7.0.3",
     "snazzy": "^2.0.1"
   },
+  "semistandard": {
+    "ignore": [
+      "build/**",
+      "dist/**"
+    ]
+  },
   "dependencies": {}
 }

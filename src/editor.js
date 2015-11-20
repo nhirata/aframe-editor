@@ -44,7 +44,7 @@ Editor.prototype.onDomLoaded = function () {
 
   this.setupCursor();
   this.setupControls();
-  this.createFloor();
+  // this.createFloor();
 };
 
 // clear anything being held
@@ -104,7 +104,7 @@ Editor.prototype.createObject = function (i) {
 Editor.prototype.placeObject = function () {
   if (!this.inHand) { return; }
 
-  var camera = this.camera.object3D;
+  var camera = this.camera;
 
   var obj = this.inHand.object3D;
   obj.updateMatrixWorld();
